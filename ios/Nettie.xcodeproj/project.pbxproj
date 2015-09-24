@@ -1,0 +1,521 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		64DC762E1BB4B4AC00A459CE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64DC762D1BB4B4AC00A459CE /* AppDelegate.swift */; };
+		64DC76301BB4B4AC00A459CE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64DC762F1BB4B4AC00A459CE /* ViewController.swift */; };
+		64DC76331BB4B4AC00A459CE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 64DC76311BB4B4AC00A459CE /* Main.storyboard */; };
+		64DC76361BB4B4AC00A459CE /* Nettie.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 64DC76341BB4B4AC00A459CE /* Nettie.xcdatamodeld */; };
+		64DC76381BB4B4AC00A459CE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 64DC76371BB4B4AC00A459CE /* Assets.xcassets */; };
+		64DC763B1BB4B4AC00A459CE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 64DC76391BB4B4AC00A459CE /* LaunchScreen.storyboard */; };
+		64DC76461BB4B4AC00A459CE /* NettieTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64DC76451BB4B4AC00A459CE /* NettieTests.swift */; };
+		64DC76511BB4B4AC00A459CE /* NettieUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64DC76501BB4B4AC00A459CE /* NettieUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		64DC76421BB4B4AC00A459CE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 64DC76221BB4B4AC00A459CE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 64DC76291BB4B4AC00A459CE;
+			remoteInfo = Nettie;
+		};
+		64DC764D1BB4B4AC00A459CE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 64DC76221BB4B4AC00A459CE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 64DC76291BB4B4AC00A459CE;
+			remoteInfo = Nettie;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		64DC762A1BB4B4AC00A459CE /* Nettie.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Nettie.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		64DC762D1BB4B4AC00A459CE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		64DC762F1BB4B4AC00A459CE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		64DC76321BB4B4AC00A459CE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		64DC76351BB4B4AC00A459CE /* Nettie.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Nettie.xcdatamodel; sourceTree = "<group>"; };
+		64DC76371BB4B4AC00A459CE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		64DC763A1BB4B4AC00A459CE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		64DC763C1BB4B4AC00A459CE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		64DC76411BB4B4AC00A459CE /* NettieTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NettieTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		64DC76451BB4B4AC00A459CE /* NettieTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NettieTests.swift; sourceTree = "<group>"; };
+		64DC76471BB4B4AC00A459CE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		64DC764C1BB4B4AC00A459CE /* NettieUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NettieUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		64DC76501BB4B4AC00A459CE /* NettieUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NettieUITests.swift; sourceTree = "<group>"; };
+		64DC76521BB4B4AC00A459CE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		64DC76271BB4B4AC00A459CE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		64DC763E1BB4B4AC00A459CE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		64DC76491BB4B4AC00A459CE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		64DC76211BB4B4AC00A459CE = {
+			isa = PBXGroup;
+			children = (
+				64DC762C1BB4B4AC00A459CE /* Nettie */,
+				64DC76441BB4B4AC00A459CE /* NettieTests */,
+				64DC764F1BB4B4AC00A459CE /* NettieUITests */,
+				64DC762B1BB4B4AC00A459CE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		64DC762B1BB4B4AC00A459CE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				64DC762A1BB4B4AC00A459CE /* Nettie.app */,
+				64DC76411BB4B4AC00A459CE /* NettieTests.xctest */,
+				64DC764C1BB4B4AC00A459CE /* NettieUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		64DC762C1BB4B4AC00A459CE /* Nettie */ = {
+			isa = PBXGroup;
+			children = (
+				64DC762D1BB4B4AC00A459CE /* AppDelegate.swift */,
+				64DC762F1BB4B4AC00A459CE /* ViewController.swift */,
+				64DC76311BB4B4AC00A459CE /* Main.storyboard */,
+				64DC76371BB4B4AC00A459CE /* Assets.xcassets */,
+				64DC76391BB4B4AC00A459CE /* LaunchScreen.storyboard */,
+				64DC763C1BB4B4AC00A459CE /* Info.plist */,
+				64DC76341BB4B4AC00A459CE /* Nettie.xcdatamodeld */,
+			);
+			path = Nettie;
+			sourceTree = "<group>";
+		};
+		64DC76441BB4B4AC00A459CE /* NettieTests */ = {
+			isa = PBXGroup;
+			children = (
+				64DC76451BB4B4AC00A459CE /* NettieTests.swift */,
+				64DC76471BB4B4AC00A459CE /* Info.plist */,
+			);
+			path = NettieTests;
+			sourceTree = "<group>";
+		};
+		64DC764F1BB4B4AC00A459CE /* NettieUITests */ = {
+			isa = PBXGroup;
+			children = (
+				64DC76501BB4B4AC00A459CE /* NettieUITests.swift */,
+				64DC76521BB4B4AC00A459CE /* Info.plist */,
+			);
+			path = NettieUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		64DC76291BB4B4AC00A459CE /* Nettie */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 64DC76551BB4B4AC00A459CE /* Build configuration list for PBXNativeTarget "Nettie" */;
+			buildPhases = (
+				64DC76261BB4B4AC00A459CE /* Sources */,
+				64DC76271BB4B4AC00A459CE /* Frameworks */,
+				64DC76281BB4B4AC00A459CE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Nettie;
+			productName = Nettie;
+			productReference = 64DC762A1BB4B4AC00A459CE /* Nettie.app */;
+			productType = "com.apple.product-type.application";
+		};
+		64DC76401BB4B4AC00A459CE /* NettieTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 64DC76581BB4B4AC00A459CE /* Build configuration list for PBXNativeTarget "NettieTests" */;
+			buildPhases = (
+				64DC763D1BB4B4AC00A459CE /* Sources */,
+				64DC763E1BB4B4AC00A459CE /* Frameworks */,
+				64DC763F1BB4B4AC00A459CE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				64DC76431BB4B4AC00A459CE /* PBXTargetDependency */,
+			);
+			name = NettieTests;
+			productName = NettieTests;
+			productReference = 64DC76411BB4B4AC00A459CE /* NettieTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		64DC764B1BB4B4AC00A459CE /* NettieUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 64DC765B1BB4B4AC00A459CE /* Build configuration list for PBXNativeTarget "NettieUITests" */;
+			buildPhases = (
+				64DC76481BB4B4AC00A459CE /* Sources */,
+				64DC76491BB4B4AC00A459CE /* Frameworks */,
+				64DC764A1BB4B4AC00A459CE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				64DC764E1BB4B4AC00A459CE /* PBXTargetDependency */,
+			);
+			name = NettieUITests;
+			productName = NettieUITests;
+			productReference = 64DC764C1BB4B4AC00A459CE /* NettieUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		64DC76221BB4B4AC00A459CE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = Nettie;
+				TargetAttributes = {
+					64DC76291BB4B4AC00A459CE = {
+						CreatedOnToolsVersion = 7.0;
+					};
+					64DC76401BB4B4AC00A459CE = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = 64DC76291BB4B4AC00A459CE;
+					};
+					64DC764B1BB4B4AC00A459CE = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = 64DC76291BB4B4AC00A459CE;
+					};
+				};
+			};
+			buildConfigurationList = 64DC76251BB4B4AC00A459CE /* Build configuration list for PBXProject "Nettie" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 64DC76211BB4B4AC00A459CE;
+			productRefGroup = 64DC762B1BB4B4AC00A459CE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				64DC76291BB4B4AC00A459CE /* Nettie */,
+				64DC76401BB4B4AC00A459CE /* NettieTests */,
+				64DC764B1BB4B4AC00A459CE /* NettieUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		64DC76281BB4B4AC00A459CE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				64DC763B1BB4B4AC00A459CE /* LaunchScreen.storyboard in Resources */,
+				64DC76381BB4B4AC00A459CE /* Assets.xcassets in Resources */,
+				64DC76331BB4B4AC00A459CE /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		64DC763F1BB4B4AC00A459CE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		64DC764A1BB4B4AC00A459CE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		64DC76261BB4B4AC00A459CE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				64DC76301BB4B4AC00A459CE /* ViewController.swift in Sources */,
+				64DC76361BB4B4AC00A459CE /* Nettie.xcdatamodeld in Sources */,
+				64DC762E1BB4B4AC00A459CE /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		64DC763D1BB4B4AC00A459CE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				64DC76461BB4B4AC00A459CE /* NettieTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		64DC76481BB4B4AC00A459CE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				64DC76511BB4B4AC00A459CE /* NettieUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		64DC76431BB4B4AC00A459CE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 64DC76291BB4B4AC00A459CE /* Nettie */;
+			targetProxy = 64DC76421BB4B4AC00A459CE /* PBXContainerItemProxy */;
+		};
+		64DC764E1BB4B4AC00A459CE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 64DC76291BB4B4AC00A459CE /* Nettie */;
+			targetProxy = 64DC764D1BB4B4AC00A459CE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		64DC76311BB4B4AC00A459CE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				64DC76321BB4B4AC00A459CE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		64DC76391BB4B4AC00A459CE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				64DC763A1BB4B4AC00A459CE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		64DC76531BB4B4AC00A459CE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		64DC76541BB4B4AC00A459CE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		64DC76561BB4B4AC00A459CE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Nettie/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.nettie.Nettie;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		64DC76571BB4B4AC00A459CE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Nettie/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.nettie.Nettie;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		64DC76591BB4B4AC00A459CE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = NettieTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.nettie.NettieTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Nettie.app/Nettie";
+			};
+			name = Debug;
+		};
+		64DC765A1BB4B4AC00A459CE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = NettieTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.nettie.NettieTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Nettie.app/Nettie";
+			};
+			name = Release;
+		};
+		64DC765C1BB4B4AC00A459CE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = NettieUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.nettie.NettieUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Nettie;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		64DC765D1BB4B4AC00A459CE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = NettieUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.nettie.NettieUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Nettie;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		64DC76251BB4B4AC00A459CE /* Build configuration list for PBXProject "Nettie" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				64DC76531BB4B4AC00A459CE /* Debug */,
+				64DC76541BB4B4AC00A459CE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		64DC76551BB4B4AC00A459CE /* Build configuration list for PBXNativeTarget "Nettie" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				64DC76561BB4B4AC00A459CE /* Debug */,
+				64DC76571BB4B4AC00A459CE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		64DC76581BB4B4AC00A459CE /* Build configuration list for PBXNativeTarget "NettieTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				64DC76591BB4B4AC00A459CE /* Debug */,
+				64DC765A1BB4B4AC00A459CE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		64DC765B1BB4B4AC00A459CE /* Build configuration list for PBXNativeTarget "NettieUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				64DC765C1BB4B4AC00A459CE /* Debug */,
+				64DC765D1BB4B4AC00A459CE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		64DC76341BB4B4AC00A459CE /* Nettie.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				64DC76351BB4B4AC00A459CE /* Nettie.xcdatamodel */,
+			);
+			currentVersion = 64DC76351BB4B4AC00A459CE /* Nettie.xcdatamodel */;
+			path = Nettie.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 64DC76221BB4B4AC00A459CE /* Project object */;
+}
